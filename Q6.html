@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q6 Solution</title>
+    <style>
+        p{
+            font-size: x-large;
+            padding: 20px;
+            word-spacing: 5px;
+        }
+        h3{
+            text-align: center;
+            font-size: xx-large;
+        }
+        ul li{
+            font-size: x-large;
+            word-spacing: 5px;
+           list-style-type: lower-latin;
+           line-height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Explain the importance of choosing meaningful and descriptive variable names in JavaScript. Provide an example where using a clear identifier improves code readability. -->
+
+    <p>
+        When naming the variables, we must consider making the names descriptive and easily understandable. This will make our program easy to read and understand in the future when we have to refactor it. 
+
+        Different languages have different rules and conventions when  it comes to naming things
+    </p>
+    <h3>There are some rules that you have to follow when it comes to the formatting of your variable names.</h3>
+    <ul>
+        <li> Variable names should begin with either a letter or an underscore or a dollar sign.</li>
+        <li>Variable names should not begin with numbers or special characters except the underscore and dollar signs.</li>
+        <li>Keywords are reserved words that have a specific meaning and cannot be used as variables. Keywords like "if", "else", "for" should not be used as variable names.</li>
+        <li>Variable names are case-sensitive.  Let's take an example to understand better:
+            <br>
+            const b = "Hello";
+            <br>
+            const B = "Everyone";
+            <br>
+        console.log(b);  // Hello
+        <br>
+        console.log(B);  // Everyone
+            <br>
+       <b> Javascript are case-sensitive, so "b" and "B" are different variables.</b>
+
+        </li>
+        <li>To ensure consistency in naming variables adopt one of the following naming conventions in naming variables. 
+            Developers mostly prefer camel case naming.
+            
+            This is where we start with a lowercase letter but every word after that starts with an uppercase letter.
+        <br>
+        For Example:
+        <br>
+        let <b>first_Name</b> = "Raj";
+        <br>
+        let <b>lastName</b> = "Mohan";
+        <br>
+        let <b>UserName</b> = "RajMohan" // <b> Pascal Case</b>
+        <br>
+        <br>
+        So, <b>first_Name</b>, <b>lastName</b>, <b>UserName</b> are naming variables which is clearly identifying what those variable contains.
+        </li>
+    </ul>
+    
+</body>
+</html>
